@@ -1,0 +1,23 @@
+:root{
+    --mainColor2: #2C3E50 ;
+}
+
+.bg-gray{
+    background-color: var(--mainColor2);
+}
+
+.gray{
+    color: var(--mainColor2);
+}
+
+:root{
+    --mainColor: #1ABC9C ;
+}
+
+.bg-green{
+    background-color: var(--mainColor);
+}
+
+.space{
+    margin-bottom: 70px;
+ }

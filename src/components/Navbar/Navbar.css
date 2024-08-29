@@ -1,0 +1,14 @@
+.nav-pills .nav-link.active{
+    background-color: var(--mainColor2) !important;
+    
+}
+
+.bg-color{
+    background-color: #2C3E50;
+}
+
+
+.text-font{
+    font-size: 32px;
+}
+

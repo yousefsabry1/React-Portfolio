@@ -1,0 +1,55 @@
+.star3{
+    position: relative;
+}
+
+.star3::after{
+    position: absolute;
+    content: "";
+    top: 47%;
+    left: 52%;
+    height: 4px;
+    width: 12%;
+    background-color: #2C3E50;
+}
+
+.star3::before{
+    position: absolute;
+    content: "";
+    top: 47%;
+    right: 52%;
+    height: 4px;
+    width: 12%;
+    background-color: #2C3E50;
+}
+
+.white{
+    background-color: white;
+}
+
+
+
+
+.port-item{
+    position: relative;
+}
+
+.port-item:hover .plus{
+    opacity: 1;
+}
+
+.fa-plus{
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+.plus{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0 ;
+    background-color: var(--mainColor);
+    opacity: 0;
+    transition: all 0.5s;
+}

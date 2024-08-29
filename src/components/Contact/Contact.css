@@ -1,0 +1,28 @@
+.star4{
+    position: relative;
+}
+
+.star4::after{
+    position: absolute;
+    content: "";
+    top: 47%;
+    left: 52%;
+    height: 4px;
+    width: 12%;
+    background-color: #2C3E50;
+}
+
+.star4::before{
+    position: absolute;
+    content: "";
+    top: 47%;
+    right: 52%;
+    height: 4px;
+    width: 12%;
+    background-color: #2C3E50;
+}
+
+.btn-send , .btn-send:hover{
+    color: white;
+    background-color: var(--mainColor);
+}

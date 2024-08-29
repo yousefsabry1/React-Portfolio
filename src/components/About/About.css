@@ -1,0 +1,28 @@
+.star2{
+    position: relative;
+}
+
+section{
+    background-color: var(--mainColor);
+}
+
+
+.star2::after{
+    position: absolute;
+    content: "";
+    top: 47%;
+    left: 53%;
+    height: 4px;
+    width: 9%;
+    background-color: white;
+}
+
+.star2::before{
+    position: absolute;
+    content: "";
+    top: 47%;
+    right: 53%;
+    height: 4px;
+    width: 9%;
+    background-color: white;
+}
